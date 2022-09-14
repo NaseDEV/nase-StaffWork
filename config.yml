@@ -1,0 +1,26 @@
+Settings:
+  sw_on:
+    susses: "&6StaffWork &7» &aВы успешно начали работу!"
+    staffchat: "&6StaffWork &7» &7Администратор &a%player% начал работу!"
+    Commands:
+      - "lp user %player% permission set essentials.god true"
+      - "lp user %player% permission set litebans.ban true"
+      - "lp user %player% permission set litebans.kick true"
+  sw_off:
+    susses: "&7&6StaffWork &7» Вы успешно закончили работу!"
+    staffchat: "&6StaffWork &7» &7Администратор &a%player% &7успешно &cзакончил &7работу!"
+    Commands:
+      - "/lp user %player% permission set essentials.god false"
+      - "lp user %player% permission set litebans.ban false"
+      - "lp user %player% permission set litebans.kick false"
+
+  messages:
+    no_perms: "&6StaffWork &7» &eВы не можете работать"
+    reload: "&6StaffWork &7» &6Успешно перезагружен!"
+    error: "&6StaffWork &7» &eВы не правильно ввели команду! /sw help"
+    help:
+      - " &6&lStaff&f&lWork "
+      - ""
+      - "&6/sw on &7> &aНачать работу"
+      - "&6/sw off &7> &cЗакончить работу"
+      - ""

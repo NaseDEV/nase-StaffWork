@@ -1,0 +1,6 @@
+name: nase-StaffWork
+version: '1.0-SNAPSHOT'
+main: NaseStaffWork.ru.Main
+authors: [ nase ]
+commands:
+  sw:
